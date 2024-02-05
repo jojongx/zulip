@@ -28,8 +28,11 @@
 	{% else %}
 	{% trans -%}
 		You have requested a list of Zulip accounts for this email address. Unfortunately, no Zulip accounts were found on this server:
+
 		* {{external_host}}
+
 	{%- endtrans %}
+
 
 	{% endif %}
 	{% trans %}
