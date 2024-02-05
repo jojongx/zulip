@@ -1,11 +1,7 @@
 
 <!-- picks subject line based on Zulip organizations(s) found -->
 {% if realms %}
-
 	{{ _("Your Zulip organizations") }}
-	
 {% else %}
-
 	{{ _("Zulip organizations not found") }}
-	
 {% endif %}

@@ -6,7 +6,6 @@
 {% endblock %}
 
 {% block content %}
-
 <!-- if email is associated with Zulip organizations -->
 {% if realms %}
 
